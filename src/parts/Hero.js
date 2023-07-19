@@ -3,9 +3,6 @@ import Fade from "react-reveal/Fade";
 
 import ImageHero from "assets/images/img-hero.jpg";
 import ImageHero_ from "assets/images/img-hero-frame.jpg";
-import IconCities from "assets/images/icons/icon-cities.svg";
-import IconTraveler from "assets/images/icons/icon-traveler.svg";
-import IconTreasure from "assets/images/icons/icon-treasure.svg";
 
 import Button from "elements/Button";
 
@@ -47,7 +44,7 @@ function showMostPicked() {
                 <img
                   width="36"
                   height="36"
-                  src={IconTraveler}
+                  src="/assets/images/icon-traveler.svg"
                   alt={`${props.data.travelers} Travelers`}
                 />
                 <h6 className="mt-3">
@@ -61,7 +58,7 @@ function showMostPicked() {
                 <img
                   width="36"
                   height="36"
-                  src={IconTreasure}
+                  src="/assets/images/icon-treasure.svg"
                   alt={`${props.data.treasures} Treasures`}
                 />
                 <h6 className="mt-3">
@@ -75,7 +72,7 @@ function showMostPicked() {
                 <img
                   width="36"
                   height="36"
-                  src={IconCities}
+                  src="/assets/images/icon-cities.svg"
                   alt={`${props.data.cities} Cities`}
                 />
                 <h6 className="mt-3">

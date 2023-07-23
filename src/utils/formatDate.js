@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default date => {
     const d = new Date(date);
     const dtf = new Intl.DateTimeFormat("en", {
